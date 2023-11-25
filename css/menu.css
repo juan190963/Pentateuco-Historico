@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Playpen+Sans:wght@300;400&family=Poppins:wght@300;400;700&family=Roboto+Condensed&family=Roboto+Slab:wght@300;400&family=Young+Serif&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#header{
+    margin: auto;
+    width: 500px;
+    font-family: 'Roboto Condensed';
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.nav li a {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav li a:hover{
+    background: color #434343; ;
+}
+
+.nav > li {
+    float: left;   
+}
